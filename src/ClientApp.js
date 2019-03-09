@@ -1,6 +1,6 @@
 import React from 'react';
 import { render } from '@hot-loader/react-dom';
-import RootContainer from './rootContainer';
+import CarDisplay from './CarDisplay';
 
-render(<RootContainer/>,document.querySelector('#root'));
+render(<CarDisplay/>,document.querySelector('#root'));
 
